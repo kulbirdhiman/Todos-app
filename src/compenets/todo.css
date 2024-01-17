@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background: url('../img/background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+input,
+button {
+    margin: 4px;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    outline: none;
+}
+
+button {
+    background-color: rgb(34, 168, 34);
+}
+
+li {
+    list-style: none;
+    font-size: 23px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 2px 5px;
+    margin: 2px;
+    background-color: rgba(52, 97, 6, 0.122);
+}
+
+.todo-list {
+    border: 2px solid beige;
+    padding: 2rem;
+    border-radius: 20px;
+    backdrop-filter: blur(35px);
+
+}
+
+#remove {
+    background-color: rgb(139, 13, 13);
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 35px;
+}
